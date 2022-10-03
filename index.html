@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+
   </style>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+      <div class="profile-card-box">
+        <div class="header-image">
+          <img src="images/bg-pattern-card.svg" alt="">
+        </div>
+        <div class="profile-picture">
+          <img src="images/image-victor.jpg" alt="">
+        </div>
+        <div class="user-info">
+          <div>
+            <span id="user-name" class="font-color-blue"> Victor Crest</span>
+            <span id="user-age">26</span>
+          </div>
+          <span id="user-city">London</span>
+        </div>
+        <div class="stats">
+          <div>
+            <span class="font-color-blue">80k</span>
+            <span>Followers</span>
+          </div>
+          <div>
+            <span class="font-color-blue">803K</span>
+            <span>Likes</span>
+          </div>
+          <div>
+            <span class="font-color-blue">1.4K</span>
+            <span>Photos</span>
+          </div>
+        </div>
+      </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/fulcain">fulcain</a>.
+  </footer>
 </body>
+
 </html>
